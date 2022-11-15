@@ -88,7 +88,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
 	profileImageSrc: profilepic,
-	description: `I love teaching and learning, it just happens that tech is the discipline. I love working with people who want to be taught as well as with those who like to teach.`,
+	description: `I love teaching and learning, it just happens that tech is the discipline. So, I love working with people who want to be taught as well as with those who like to teach.`,
 	aboutItems: [
 		{label: 'Location', text: 'Denver, CO', Icon: MapIcon},
 		{label: 'Age', text: '24', Icon: CalendarIcon},
@@ -216,9 +216,11 @@ export const experience: TimelineItem[] = [
 		techStack: ['C#', 'Azure', 'Bicep', 'ARM', 'Event-Driven Architecture', 'Microservices'],
 		content: (
 			<p>
-				Led a team of 4 engineers to modernize functionality from legacy systems, which enabled creation of new customer experiences.
-				Managed backlog and coached engineers.
-				Architected services to incrementally replace 3rd-party business unit.
+				<ul>
+					<li> * Led a team of 4 engineers to modernize functionality from legacy systems, which enabled creation of new customer experiences.  </li>
+					<li> * Managed backlog and coached engineers.</li>
+					<li> * Architected services to incrementally replace 3rd-party business unit.</li>
+				</ul>
 			</p>
 		),
 	},
