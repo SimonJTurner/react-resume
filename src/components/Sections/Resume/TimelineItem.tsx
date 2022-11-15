@@ -2,8 +2,9 @@ import {FC, memo} from 'react';
 
 import {TimelineItem} from '../../../data/dataDef';
 
-const TimelineItem: FC<{item: TimelineItem}> = memo(({item}) => {
-  const {title, date, location, content} = item;
+const TimelineItem: FC<{ item: TimelineItem }> = memo(({item}) => {
+  const {title, date, location, techStack, content} = item;
+
   return (
     <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
       <div className="flex flex-col pb-4">
@@ -12,6 +13,13 @@ const TimelineItem: FC<{item: TimelineItem}> = memo(({item}) => {
           <span className="flex-1 text-sm font-medium italic sm:flex-none">{location}</span>
           <span>•</span>
           <span className="flex-1 text-sm sm:flex-none">{date}</span>
+        </div>
+        <div className="flex items-center justify-center gap-x-2 md:justify-start">
+          {techStack?.map((techStackItem, i) => (
+            <span className="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-sm flex align-center w-max" key={i}>
+              {techStackItem}
+            </span>
+          ))}
         </div>
       </div>
       {content}

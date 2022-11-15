@@ -80,7 +80,7 @@ export interface PortfolioItem {
   title: string;
   description: string;
   url: string;
-  image: string | StaticImageData;
+  image?: string | StaticImageData;
 }
 
 /**
@@ -90,6 +90,7 @@ export interface TimelineItem {
   date: string;
   location: string;
   title: string;
+  techStack?: string[];
   content: JSX.Element;
 }
 
