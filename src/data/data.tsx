@@ -177,61 +177,6 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
-	{
-		title: 'Project title 1',
-		description: 'Give a short description of your project here.',
-		url: 'https://timbaker.me',
-	},
-	{
-		title: 'Project title 2',
-		description: 'Give a short description of your project here.',
-		url: 'https://timbaker.me',
-	},
-	{
-		title: 'Project title 3',
-		description: 'Give a short description of your project here.',
-		url: 'https://timbaker.me',
-	},
-	{
-		title: 'Project title 4',
-		description: 'Give a short description of your project here.',
-		url: 'https://timbaker.me',
-	},
-	{
-		title: 'Project title 5',
-		description: 'Give a short description of your project here.',
-		url: 'https://timbaker.me',
-	},
-	{
-		title: 'Project title 6',
-		description: 'Give a short description of your project here.',
-		url: 'https://timbaker.me',
-	},
-	{
-		title: 'Project title 7',
-		description: 'Give a short description of your project here.',
-		url: 'https://timbaker.me',
-	},
-	{
-		title: 'Project title 8',
-		description: 'Give a short description of your project here.',
-		url: 'https://timbaker.me',
-	},
-	{
-		title: 'Project title 9',
-		description: 'Give a short description of your project here.',
-		url: 'https://timbaker.me',
-	},
-	{
-		title: 'Project title 10',
-		description: 'Give a short description of your project here.',
-		url: 'https://timbaker.me',
-	},
-	{
-		title: 'Project title 11',
-		description: 'Give a short description of your project here.',
-		url: 'https://timbaker.me',
-	},
 ];
 
 /**
