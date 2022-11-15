@@ -112,6 +112,7 @@ export interface Testimonial {
  * Contact section
  */
 export interface ContactSection {
+  image?: string;
   headerText?: string;
   description: string;
   items: ContactItem[];

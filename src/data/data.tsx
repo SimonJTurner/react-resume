@@ -11,7 +11,7 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/abasin.webp';
-import profilepic from '../images/headshot.webp';
+import profilepic from '../images/melly_med.jpeg';
 import testimonialImage from '../images/testimonial.webp';
 import {
 	About,
